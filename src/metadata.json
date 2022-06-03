@@ -1,0 +1,35 @@
+{
+	"name": "NFT title",
+	"symbol": "Symbol",
+	"description": "NFT description",
+	"seller_fee_basis_points": 500,
+	"image": "https://www.arweave.net/<bundlr TX>?ext=jpg",
+	"animation_url": "https://arweave.net/<bundlr TX>?ext=mp4",
+	"external_url": "https://<url to your website>",
+	"attributes": [
+		{
+			"trait_type": "<Trait type>",
+			"value": "<Trait value>"
+		}
+	],
+	"collection": {
+		"name": "<Collection title>",
+		"family": "<Collection family>"
+	},
+	"properties": {
+		"files": [
+			{
+				"uri": "https://www.arweave.net/<bundlr TX>?ext=jpg",
+				"type": "image/jpeg"
+			}
+		],
+		"category": "image",
+		"creators": [
+			{
+				"address": "<Creator PublicKey>",
+				"verified": true,
+				"share": 100
+			}
+		]
+	}
+}
